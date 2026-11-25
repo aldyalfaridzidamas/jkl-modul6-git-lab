@@ -5,7 +5,8 @@ import time
 
 DEVICES = ["192.168.1.254", "192.168.1.253"]
 SSH_PORT = 22
-SSH_TIMEOUT = 10
+SSH_TIMEOUT = 15
+RETRIES = 3
 BACKUP_DIR = os.path.expanduser("~/backup")
 
 
